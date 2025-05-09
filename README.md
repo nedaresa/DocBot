@@ -7,6 +7,7 @@ Enter image of your document (passport, EAD, or driver's license), and DocBot id
 
 Example usage: $ python DocBot.py './data/2017.jpg'
 
+
 env:
 openai=1.77.0=py39hecd8cb5_0
 python=3.9.21=hce00570_1

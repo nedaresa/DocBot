@@ -75,7 +75,6 @@ def analyze_doc(document_path, model, key):
         response_format=DocumentResponse 
     )
 
-
     structured_response = response.choices[0].message.parsed
     return structured_response.model_dump_json()
 
