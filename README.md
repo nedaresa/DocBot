@@ -1,11 +1,15 @@
 May 9th, 2025
+
 Neda Jabbari
 
 
-DocBot
-Enter image of your document (passport, EAD, or driver's license), and DocBot identifies your document type and extracts key information (works with image files, tested with jpg and png)
 
-Example usage: $ python DocBot.py './data/2017.jpg'
+DocBot 
+
+Gets image of your document (passport, EAD, or driver's license), identifies the document type and extracts key information using GPT-4.1 API. Works with image files, tested with jpg and png. 
+
+Example usage: $ python DocBot.py './data/2.jpg'
+
 
 
 env:
