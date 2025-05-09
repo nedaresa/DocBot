@@ -79,8 +79,6 @@ def analyze_doc(document_path, model, key):
     structured_response = response.choices[0].message.parsed
     return structured_response.model_dump_json()
 
-#document_path ='./data/1.jpg'
-
 
 
 def main():
